@@ -1,5 +1,5 @@
-import Footer from "./../components/Footer";
-import Navbar from "./../components/Navbar";
+import Footer from "./../components/Footer.jsx";
+import Navbar from "./../components/NavBar.jsx";
 import About from "./../sections/About";
 import Contact from "./../sections/Contact";
 import Faculty from "./../sections/Faculty";
