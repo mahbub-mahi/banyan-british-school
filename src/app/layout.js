@@ -1,5 +1,5 @@
 import { Inter, Poppins } from "next/font/google";
-import "../../../banyan-school/globals.css";
+import "../../globals.css";
 
 const inter = Inter({
   subsets: ["latin"],
