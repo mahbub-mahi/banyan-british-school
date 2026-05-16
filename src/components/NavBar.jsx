@@ -17,28 +17,28 @@ const Navbar = () => {
         <nav className="hidden md:flex items-center gap-8">
           <a
             href="#"
-            className="text-sm font-medium text-gray-700 hover:text-green-700 transition"
+            className="text-sm md:text-base lg:text-lg font-medium text-gray-700 hover:border-primary transition"
           >
             Home
           </a>
 
           <a
             href="#"
-            className="text-sm font-medium text-gray-700 hover:text-green-700 transition"
+            className="text-sm md:text-base lg:text-lg font-medium text-gray-700 hover:border-primary transition"
           >
             About
           </a>
 
           <a
             href="#"
-            className="text-sm font-medium text-gray-700 hover:text-green-700 transition"
+            className="text-sm md:text-base lg:text-lg font-medium text-gray-700 hover:border-primary transition"
           >
             Faculty
           </a>
 
           <a
             href="#"
-            className="text-sm font-medium text-gray-700 hover:text-green-700 transition"
+            className="text-sm md:text-base lg:text-lg font-medium text-gray-700 hover:border-primary transition"
           >
             Contact
           </a>

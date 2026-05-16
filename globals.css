@@ -5,6 +5,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary-color: #7da043;
+  --primary-dark: #97b83f;
 }
 
 html {
@@ -24,6 +26,22 @@ h4,
 h5,
 h6 {
   font-family: var(--font-poppins);
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+.bg-primary-dark {
+  background-color: var(--primary-dark);
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.border-primary {
+  border-color: var(--primary-color);
 }
 
 .container-custom {

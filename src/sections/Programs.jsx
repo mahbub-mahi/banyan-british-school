@@ -4,7 +4,7 @@ const Programs = () => {
       <div className="container-custom py-24">
         {/* HEADER */}
         <div className="text-center max-w-2xl mx-auto mb-14">
-          <p className="text-green-700 font-medium mb-2">Our Programs</p>
+          <p className="text-primary font-medium mb-2">Our Programs</p>
 
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
             Academic Programs We Offer

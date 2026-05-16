@@ -4,7 +4,7 @@ const Contact = () => {
       <div className="container-custom py-24 grid md:grid-cols-2 gap-12">
         {/* LEFT INFO */}
         <div>
-          <p className="text-green-700 font-medium mb-2">Contact Us</p>
+          <p className="text-primary font-medium mb-2">Contact Us</p>
 
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
             Get In Touch With Us
@@ -17,15 +17,18 @@ const Contact = () => {
 
           <div className="mt-8 space-y-4 text-gray-700">
             <p>
-              <span className="font-semibold">Phone:</span> +880 1XXXXXXXXX
+              <span className="font-semibold">Phone:</span> +880 1818-603884
+            </p>
+            <p>
+              <span className="font-semibold">Whatsapp:</span> +880 1818-603884
             </p>
             <p>
               <span className="font-semibold">Email:</span>{" "}
-              info@banyanschool.com
+              banyanbritishschool@gmail.com
             </p>
             <p>
-              <span className="font-semibold">Address:</span> School Location
-              Here
+              <span className="font-semibold">Address:</span> 90 Jhorna,
+              Jhornarpar, Shahi Eidgah Road, Sylhet, Bangladesh
             </p>
           </div>
         </div>
@@ -51,7 +54,7 @@ const Contact = () => {
               className="w-full border border-gray-200 p-3 rounded-md outline-none focus:border-green-600"
             ></textarea>
 
-            <button className="w-full bg-green-700 text-white py-3 rounded-md hover:bg-green-800 transition">
+            <button className="w-full bg-primary  text-white py-3 rounded-md hover:bg-primary-dark transition">
               Send Message
             </button>
           </div>

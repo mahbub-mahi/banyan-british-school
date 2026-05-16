@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container-custom py-12 grid md:grid-cols-3 gap-10">
         {/* LEFT */}
         <div>
-          <h3 className="text-lg font-semibold text-green-800">
+          <h3 className="text-lg font-semibold text-primary">
             Banyan British School
           </h3>
           <p className="mt-3 text-sm text-gray-600 leading-relaxed">
@@ -30,9 +30,16 @@ const Footer = () => {
         <div>
           <h4 className="font-semibold text-gray-900 mb-3">Contact</h4>
 
-          <p className="text-sm text-gray-600">Phone: +880 1XXXXXXXXX</p>
-          <p className="text-sm text-gray-600">Email: info@school.com</p>
-          <p className="text-sm text-gray-600">Kaliganj, Dhaka</p>
+          <p className="text-sm text-gray-600 pb-1">Phone: +880 1818-603884</p>
+          <p className="text-sm text-gray-600 pb-1">
+            Whatsapp: +880 1818-603884
+          </p>
+          <p className="text-sm text-gray-600 pb-1">
+            Email: banyanbritishschool@gmail.com
+          </p>
+          <p className="text-sm text-gray-600 pb-1">
+            90 Jhorna, Jhornarpar, Shahi Eidgah Road, Sylhet, Bangladesh
+          </p>
         </div>
       </div>
 
