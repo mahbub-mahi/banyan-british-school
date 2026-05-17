@@ -1,9 +1,9 @@
 import Image from "next/image";
 
 const galleryImages = [
-  "/Life-1.jpg",
-  "/Life-2.jpg",
-  "/Life-3.jpg",
+  "/Life-1.JPG",
+  "/Life-2.JPG",
+  "/Life-3.JPG",
   "/Life-4.jpg",
   "/Life-5.jpg",
   "/Life-6.jpg",
@@ -15,7 +15,9 @@ const Gallery = () => {
       <div className="container-custom py-24">
         {/* HEADER */}
         <div className="text-center max-w-2xl mx-auto mb-14">
-          <p className="text-primary font-medium mb-2">Our Gallery</p>
+          <p className="text-primary text-base md:text-xl font-medium mb-2">
+            Our Gallery
+          </p>
 
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
             Life at Banyan British School

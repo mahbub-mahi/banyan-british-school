@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="container-custom py-24 grid md:grid-cols-2 gap-12 items-center">
         {/* LEFT SIDE */}
         <div>
-          <p className="text-primary md:text-lg font-medium mb-3">
+          <p className="text-primary md:text-xl font-medium mb-3">
             Welcome to Banyan British School
           </p>
 

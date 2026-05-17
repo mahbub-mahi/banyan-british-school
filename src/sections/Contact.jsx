@@ -1,10 +1,12 @@
 const Contact = () => {
   return (
-    <section className="bg-gray-50">
+    <section id="contact" className="bg-gray-50">
       <div className="container-custom py-24 grid md:grid-cols-2 gap-12">
         {/* LEFT INFO */}
         <div>
-          <p className="text-primary font-medium mb-2">Contact Us</p>
+          <p className="text-primary text-base md:text-xl font-medium mb-2">
+            Contact Us
+          </p>
 
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
             Get In Touch With Us

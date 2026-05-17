@@ -1,10 +1,51 @@
+const staff = [
+  {
+    name: "Habibur Rahman Munna",
+    role: "Coordinator & Math Teacher",
+  },
+  {
+    name: "Mahbubul Alam Mahi",
+    role: "Admin & Physics Teacher",
+  },
+  {
+    name: "Solaiman Hossain Shanto",
+    role: "Accountant",
+  },
+  {
+    name: "Janna Akhter",
+    role: "Teacher",
+  },
+  {
+    name: "Sharmin Jahan Sonchi",
+    role: "Teacher",
+  },
+  {
+    name: "Marwah",
+    role: "Teacher",
+  },
+  {
+    name: "Marwah",
+    role: "Teacher",
+  },
+  {
+    name: "Tahmina Husen Ema",
+    role: "Teacher",
+  },
+  {
+    name: "Mst Shahida Siddika",
+    role: "Teacher",
+  },
+];
+
 const Faculty = () => {
   return (
     <section className="bg-gray-50">
       <div className="container-custom py-24">
         {/* HEADER */}
         <div className="text-center max-w-2xl mx-auto mb-14">
-          <p className="text-primary font-medium mb-2">Our Faculty</p>
+          <p className="text-primary text-base md:text-xl font-medium mb-2">
+            Our Faculty
+          </p>
 
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
             Experienced & Dedicated Teachers
@@ -15,35 +56,26 @@ const Faculty = () => {
             students with care, discipline, and modern teaching methods.
           </p>
         </div>
+        <div className="bg-white border w-[60%] md:[40%] mb-5 m-auto rounded-xl p-5 text-center shadow-sm hover:shadow-md transition">
+          <div className="w-36 h-36 md:w-40 md:h-40 mx-auto bg-gray-200 rounded-full mb-4"></div>
 
-        {/* GRID */}
-        <div className="grid md:grid-cols-3 gap-8">
-          {/* TEACHER 1 */}
-          <div className="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition">
-            <div className="w-20 h-20 mx-auto rounded-full bg-gray-200 mb-4"></div>
-            <h3 className="text-lg font-semibold text-gray-900">
-              Teacher Name
-            </h3>
-            <p className="text-sm text-gray-500 mt-1">English Teacher</p>
-          </div>
+          <h3 className="font-semibold text-gray-900">Principal</h3>
 
-          {/* TEACHER 2 */}
-          <div className="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition">
-            <div className="w-20 h-20 mx-auto rounded-full bg-gray-200 mb-4"></div>
-            <h3 className="text-lg font-semibold text-gray-900">
-              Teacher Name
-            </h3>
-            <p className="text-sm text-gray-500 mt-1">Math Teacher</p>
-          </div>
+          <p className="text-sm text-gray-500 mt-1">Md. Niazur Rahman</p>
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
+          {staff.map((person, index) => (
+            <div
+              key={index}
+              className="bg-white border rounded-xl p-5 text-center shadow-sm hover:shadow-md transition"
+            >
+              <div className="w-32 h-32 mx-auto bg-gray-200 rounded-full mb-4"></div>
 
-          {/* TEACHER 3 */}
-          <div className="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition">
-            <div className="w-20 h-20 mx-auto rounded-full bg-gray-200 mb-4"></div>
-            <h3 className="text-lg font-semibold text-gray-900">
-              Teacher Name
-            </h3>
-            <p className="text-sm text-gray-500 mt-1">Science Teacher</p>
-          </div>
+              <h3 className="font-semibold text-gray-900">{person.role}</h3>
+
+              <p className="text-sm text-gray-700 mt-1">{person.name}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
