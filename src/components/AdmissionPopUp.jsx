@@ -31,7 +31,7 @@ export default function AdmissionPopup() {
         {/* Notice Image */}
         <div className="relative w-full h-[550px]">
           <Image
-            src="/notices/admission-2.jpeg"
+            src="/notices/Admission-2.jpeg"
             alt="Admission Notice"
             fill
             className="object-contain"
