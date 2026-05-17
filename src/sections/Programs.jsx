@@ -86,7 +86,7 @@ const Programs = () => {
                 {program.levels.map((level, i) => (
                   <span
                     key={i}
-                    className="text-sm bg-gray-100 px-3 py-1 rounded-full text-gray-700"
+                    className="text-sm bg-gray-200 px-3 p-2 rounded-xl text-gray-900"
                   >
                     {level}
                   </span>

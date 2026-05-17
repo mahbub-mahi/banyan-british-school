@@ -29,7 +29,7 @@ export default function AdmissionPopup() {
         </button>
 
         {/* Notice Image */}
-        <div className="relative w-full h-[550px]">
+        <div className="relative w-full h-[350px] sm:h-[450px] md:h-[550px]">
           <Image
             src="/notices/Admission-2.jpeg"
             alt="Admission Notice"
