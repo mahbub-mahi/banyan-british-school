@@ -48,16 +48,34 @@ h6 {
   @apply max-w-7xl mx-auto px-4 md:px-6 lg:px-8;
 }
 
-@keyframes marquee {
+@keyframes marqueeDesktop {
   0% {
     transform: translateX(230%);
   }
-
   100% {
     transform: translateX(-100%);
   }
 }
 
+@keyframes marqueeMobile {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* DEFAULT = MOBILE */
 .animate-marquee {
-  animation: marquee 30s linear infinite;
+  animation: marqueeMobile 18s linear infinite;
+  white-space: nowrap;
+  will-change: transform;
+}
+
+/* DESKTOP OVERRIDE */
+@media (min-width: 768px) {
+  .animate-marquee {
+    animation: marqueeDesktop 30s linear infinite;
+  }
 }
