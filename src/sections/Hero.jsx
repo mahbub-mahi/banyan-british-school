@@ -2,44 +2,56 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section id="hero" className="bg-white pt-[130px]">
-      <div className="container-custom py-24 grid md:grid-cols-2 gap-12 items-center">
-        {/* LEFT SIDE */}
-        <div>
+    <section
+      id="home"
+      className="relative min-h-screen overflow-hidden pt-[130px]"
+    >
+      {/* Background Image */}
+      <div className="absolute inset-0">
+        <Image
+          src="/School-1.jpg"
+          alt="Banyan British School"
+          fill
+          priority
+          className="object-cover"
+        />
+      </div>
+
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-black/50"></div>
+
+      {/* Gradient Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-black/60"></div>
+
+      {/* Content */}
+      <div className="relative z-10 container-custom min-h-[calc(100vh-130px)] flex items-center">
+        <div className="max-w-2xl">
           <p className="text-primary md:text-xl font-medium mb-3">
             Welcome to Banyan British School
           </p>
 
-          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
+          <h1 className="text-2xl md:text-4xl lg:text=5xl font-bold text-white leading-tight">
             Preparing Children for Global Living
           </h1>
 
-          <p className="mt-5 text-gray-600 text-base leading-relaxed">
+          <p className="mt-6 text-gray-200 text-base md:text-lg leading-relaxed">
             Banyan British School is committed to nurturing confident, creative,
             and responsible learners through a modern and supportive educational
             environment.
           </p>
 
-          <div className="mt-8 flex gap-4">
-            <button className="bg-primary text-white px-6 py-3 rounded-md hover:bg-primary-dark transition">
+          <div className="mt-8 flex gap-4 flex-wrap">
+            <button className="bg-primary text-white px-7 py-3 rounded-xl hover:scale-105 transition">
               Explore More
             </button>
 
-            <button className="border border-gray-300 px-6 py-3 rounded-md hover:border-green-700 hover:text-primary transition">
+            <a
+              href="#contact"
+              className="border border-white/30 bg-white/10 backdrop-blur-md text-white px-7 py-3 rounded-xl hover:bg-white/20 transition"
+            >
               Contact Us
-            </button>
+            </a>
           </div>
-        </div>
-
-        {/* RIGHT SIDE */}
-        <div className="bg-gray-300 rounded-xl overflow-hidden h-[320px] md:h-[400px] shadow-xl">
-          <Image
-            src="/School-1.jpg"
-            alt="Banyan British School"
-            width={500}
-            height={500}
-            className="w-full h-full object-cover"
-          />
         </div>
       </div>
     </section>

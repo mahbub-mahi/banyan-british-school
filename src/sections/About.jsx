@@ -21,11 +21,11 @@ const About = () => {
             About Us
           </p>
 
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
             Building Strong Foundations for Future Leaders
           </h2>
 
-          <p className="mt-5 text-gray-600 leading-relaxed">
+          <p className="mt-5 text-gray-600 text-sm md:text-lg leading-relaxed">
             At Banyan British School, we are dedicated to nurturing young minds
             in a caring, inclusive, and inspiring environment. Our goal is to
             help every child grow with confidence, creativity, and strong values
