@@ -39,7 +39,7 @@ const staff = [
 
 const Faculty = () => {
   return (
-    <section className="bg-gray-50">
+    <section id="faculty" className="bg-gray-50">
       <div className="container-custom py-24">
         {/* HEADER */}
         <div className="text-center max-w-2xl mx-auto mb-14">

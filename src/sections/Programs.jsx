@@ -46,7 +46,7 @@ const programs = [
 
 const Programs = () => {
   return (
-    <section className="bg-gray-100">
+    <section id="programs" className="bg-gray-100">
       <div className="container-custom py-24">
         {/* HEADER */}
         <div className="text-center max-w-2xl mx-auto mb-14">

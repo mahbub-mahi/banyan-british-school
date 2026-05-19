@@ -1,6 +1,6 @@
 export default function Leadership() {
   return (
-    <section className="py-24 bg-white">
+    <section id="leadership" className="py-24 bg-white">
       <div className="container-custom">
         {/* Heading */}
         <div className="text-center mb-12">

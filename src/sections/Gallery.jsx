@@ -11,7 +11,7 @@ const galleryImages = [
 
 const Gallery = () => {
   return (
-    <section className="bg-white">
+    <section id="gallery" className="bg-white">
       <div className="container-custom py-24">
         {/* HEADER */}
         <div className="text-center max-w-2xl mx-auto mb-14">

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="bg-white">
+    <section id="hero" className="bg-white pt-[130px]">
       <div className="container-custom py-24 grid md:grid-cols-2 gap-12 items-center">
         {/* LEFT SIDE */}
         <div>
